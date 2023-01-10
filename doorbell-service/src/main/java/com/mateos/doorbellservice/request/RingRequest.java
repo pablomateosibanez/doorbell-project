@@ -2,13 +2,13 @@ package com.mateos.doorbellservice.request;
 
 public class RingRequest {
 
-    private String value;
+    private Integer value;
 
-    public String getValue() {
+    public Integer getValue() {
         return value;
     }
 
-    public void setValue(String value) {
+    public void setValue(Integer value) {
         this.value = value;
     }
 }
